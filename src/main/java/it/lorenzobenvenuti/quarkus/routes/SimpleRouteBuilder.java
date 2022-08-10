@@ -11,7 +11,7 @@ public class SimpleRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        from("activemq:my-queue").routeId(ROUTE_ID)
+        from("file:my-dir").routeId(ROUTE_ID)
             .process(exchange -> Foo.findById(123L));
     }
 

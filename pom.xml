@@ -46,7 +46,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.camel.quarkus</groupId>
-      <artifactId>camel-quarkus-activemq</artifactId>
+      <artifactId>camel-quarkus-file</artifactId>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
